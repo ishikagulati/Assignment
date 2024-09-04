@@ -106,7 +106,7 @@ const AboutCard = () => {
                 </svg>
             </div>
             <div className="h-full flex flex-col justify-center items-center pt-10 mx-12 gap-10">
-                <div ref={buttonContainerRef} className="bg-[#171717] text-[#A3ADB2] w-full h-16 rounded-3xl flex justify-evenly items-center text-lg font-semibold ">
+                <div ref={buttonContainerRef} className="bg-[#171717] text-[#A3ADB2] about-header w-full h-16 rounded-3xl flex justify-evenly items-center text-lg font-medium ">
 
                     {["About Me", "Experiences", "Recommended"].map((label, index) => (
                         <button
