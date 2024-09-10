@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import "./GalleryWidget.css";
 import img1 from "../assets/1.jpeg";
@@ -43,7 +43,7 @@ export default function Gallery () {
 
   return (
     <div>
-      <div className="bg-[#363C43] w-full h-[330px] rounded-[18.89px] shadow-[5.67px_5.67px_3.78px_0px_rgba(0,0,0,0.4)] relative">
+      <div className="bg-[#363C43] w-full h-[300px] rounded-[18.89px] shadow-[5.67px_5.67px_3.78px_0px_rgba(0,0,0,0.4)] relative">
       <div className="w-[24px] h-[160px] flex flex-col justify-between items-center absolute top-5 left-3">
         <svg
           width="24"
@@ -65,8 +65,8 @@ export default function Gallery () {
               y2="2"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#4A4E54" />
-              <stop offset="1" stop-color="#A3ADBA" />
+              <stop stopColor="#4A4E54" />
+              <stop offset="1" stopColor="#A3ADBA" />
             </linearGradient>
           </defs>
         </svg>

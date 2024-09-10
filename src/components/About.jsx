@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./About.css";
 import { useState, useRef, useEffect } from "react";
 
@@ -30,8 +30,8 @@ const AboutCard = () => {
     }, [selectedButton]);
 
     return (
-        <div className="bg-[#363C43]  w-full h-[316px] rounded-[18.89px] shadow-[5.67px_5.67px_3.78px_0px_rgba(0,0,0,0.4)] relative">
-            <div className="w-[24px] h-[160px] flex flex-col justify-between items-center absolute top-5 left-3">
+        <div className="bg-[#363C43]  w-full h-[300px] rounded-[18.89px] shadow-[5.67px_5.67px_3.78px_0px_rgba(0,0,0,0.4)] relative ">
+            <div className="w-[24px] h-[160px] flex flex-col justify-between items-center absolute top-5 left-3 ">
                 <svg
                     width="24"
                     height="24"
@@ -52,8 +52,8 @@ const AboutCard = () => {
                             y2="2"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stop-color="#4A4E54" />
-                            <stop offset="1" stop-color="#A3ADBA" />
+                            <stop stopColor="#4A4E54" />
+                            <stop offset="1" stopColor="#A3ADBA" />
                         </linearGradient>
                     </defs>
                 </svg>
@@ -142,7 +142,7 @@ const AboutCard = () => {
                 </div>
 
                 <div className="mdoc text-ellipsi ... mb-2 text-[#969696] text-xl leading-6 overflow-auto ">
-                        Hello! I&apos;m Dave, your sales rep here from Salesforce. Ive been working at this awesome company for 3 years now.
+                        Hello! I&apos;m ishika, your sales rep here from Salesforce. Ive been working at this awesome company for 3 years now.
                         <br/>
                         <br/>
                         I was born and raised in Albany, NY& have been living in Santa Carla for the past 10 years my wife Tiffany and my 4 year old twin daughters- Emma and Ella. Both of them are just starting school, so my calender is usually blocked between 9-10 AM. This is a...
@@ -176,9 +176,9 @@ const AboutCard = () => {
                             width="17.8"
                             height="73.8"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            colorInterpolationFilters="sRGB"
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -212,8 +212,8 @@ const AboutCard = () => {
                             y2="60.0069"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stop-color="#888989" />
-                            <stop offset="1" stop-color="#4A4E54" />
+                            <stop stopColor="#888989" />
+                            <stop offset="1" stopColor="#4A4E54" />
                         </linearGradient>
                     </defs>
                 </svg>
